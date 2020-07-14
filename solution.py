@@ -6,7 +6,7 @@ import pandas as pd
 
 def predict(data):
     """ get two colums from `df` and returns the predicted output as a column (pd.Series)
-    TODO: modify it
+    sum of these 
     """
     result = data['col1'] + data['col2']
     return result
